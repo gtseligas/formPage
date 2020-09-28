@@ -1,0 +1,193 @@
+body, html{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+body {
+  padding: 10px;
+  background-image: url(cup-of-coffee-1280537_1920.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+}
+
+
+
+#title-div {
+    font-family: "Varela";
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#title-div > p {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+#title-div > h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+#name-div {
+    align-items: center;
+    width: 90%;
+    padding-top: 40px;
+}
+
+#email-div, #number-div, #dropdown-div, #recommend-div, #suggestions-div, #dropdown-2-div, #improvement-div {
+  align-items: center;
+  width: 90%;
+  padding-top: 20px;
+}
+
+
+#survey-form {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4%/2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#name,#email,#number {
+  box-sizing: border-box;
+  padding: 5px 0 5px 10px;
+  display: block;
+  width: 100%;
+  line-height: 28px;
+  height: auto;
+  border-color: transparent;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+#dropdown, #dropdown-2 {
+  color: black;
+  box-sizing: border-box;
+  padding: 8px 0 8px 10px;
+  display: block;
+  width: 100%;
+  line-height: 28px;
+  height: auto;
+  border-color: transparent;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: black;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.radio-div {
+    margin-top: 8px;
+}
+
+.radio-div > label {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.check-div {
+  margin-top : 8px;
+}
+
+.check-div > label {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle ;
+}
+
+input[type="checkbox"] {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  border-radius: 8%;
+}
+
+form * {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 1000;
+}
+
+label, p {
+  color: white;
+}
+
+textarea {
+  color: black;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+  resize: vertical;
+  padding: 10px;
+}
+
+#submit {
+  display: block;
+  width: 90%;
+  height: 3em;
+  margin: 30px auto;
+  background-color: #FF5000;
+  font-family: "Roboto";
+  color: white;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  #survey-form {
+    width: 90%;
+  }
+
+  #title-div {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    background-position: left;
+    padding: 0;
+  }
+
+  #survey-form {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #title-div {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+}
